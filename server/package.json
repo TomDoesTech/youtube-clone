@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tom Nagle",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --exit-child --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@mantine/form": "^4.1.2",
+    "@typegoose/typegoose": "^9.7.1",
+    "argon2": "^0.28.5",
+    "busboy": "^1.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "mongoose-slug-generator": "^1.0.4",
+    "nanoid": "^3.3.2",
+    "pino": "^7.10.0",
+    "zod": "^3.14.4",
+    "zod-express-middleware": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/busboy": "^1.5.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "pino-pretty": "^7.6.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
